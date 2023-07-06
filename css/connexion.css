@@ -1,0 +1,43 @@
+#myDIV {
+    position: absolute;
+    padding: 16px;
+    border-radius: 13px;
+    display: none;
+    height: 115px;
+    margin-top: 45px;
+    margin-left: -24px;
+    z-index: 1;
+    box-shadow: 0px 1px 9px #70e0e5;
+    background: white;
+}
+  
+  #login:hover ,#signup:hover {
+    border: 2px solid   #70e0e5;  
+    background: #1a1a1a;
+    transition: .5s;
+  }
+  
+  #signup, #login {
+    border: 2px solid #970147;
+    margin-top: 10px;
+    background: none;
+    border-radius: 5px;
+    font-size: 11px;
+    text-align: center;
+    margin-left: -1px;
+}
+  #signup a,#login a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: auto;
+  }
+  
+  #signup a:hover, #login a :hover {
+    color: #970147!important;
+  }
+
+  #faa {
+    top: 32px;
+    left: 16px;
+    font-size: 30px;
+}

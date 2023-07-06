@@ -1,0 +1,463 @@
+
+/*miniecran*/
+@media only screen and (min-width:320px) and (max-width: 480px){
+/*les fonts*/
+    h1{
+        margin: 35px 0px 45px 67px;
+    }
+
+    /*menu de gauche*/
+nav ul li {
+    display: block;
+}
+    .menu-lide {
+        width: 100%!important;
+        display: flex!important;
+        flex-direction: column-reverse!important;
+    }
+    .menu-lid {
+        width: 100%!important;
+        float: none!important;
+    }
+    .menu-lid ul li {
+        width: 88%!important;
+  margin: 0px!important;
+}
+.menu-lid a:hover {
+    width: 51%!important;
+}
+.sous {
+    box-shadow: 4px 4px 9px #ed84af!important;
+    width: 66%!important;
+    top: 92px !important;
+    left: 90px!important;
+    border-radius: 5px;
+}
+
+.sous a {
+    padding: 7px!important;
+    margin-left:55px!important;
+}
+.Techno {
+    width: 17%!important;
+    margin-bottom: -9px!important;
+    margin-left: 39px!important;
+}
+    .Techn{
+        margin-bottom: -18px;
+    }
+
+    .Technologi {
+        margin-top: 20px;
+    }
+    
+    /*slide*/
+    .carousel__viewport {
+        left: 29px;
+        height: 161px;
+    }
+    .carousel__navigation {
+        bottom: 44px;
+        left: 30px;
+    }
+    .carousel {
+        padding-top: 42%;
+        margin-left: 0;
+        width: 100%;
+    }
+      
+    /*bar de connection et recherche*/
+    #logo{
+        width: 8%;
+    }
+    .bar-connect {
+        margin-top: 20px;
+    }
+    #search {
+        height: 32.6px;
+        width: 58%;
+    }
+    .search-bar {
+        margin-top: 9px;
+        margin-left: 21px;
+    }
+    #recherche{
+            margin-top: -27px;
+            margin-left: 2px;
+        }
+    .fa {
+        font-size: 29px;
+        top: 12px!important;
+        left: 31px;
+    }
+    #fan {
+        top: -3px!important;
+        font-size: 22px;
+        margin-left: 62px;
+    }
+    #faa {
+        left: -54px!important;
+    }
+    header {
+        padding: 0 10px!important;
+        margin-top: -37px;
+        margin-bottom: 40px;
+    }
+    /*connexion*/
+    .open .mobile-menu {
+        width: 31%!important;
+        left: 234px!important;
+        padding-top: 21px!important;
+        margin-top: 20px!important;
+    }
+    /*footer*/
+
+    .footer a:hover {
+        background: #970147;
+    }
+    .footer ul a {
+        font-size: 12px!important;
+        margin: 0px!important;
+    }
+    }
+
+/*Telephone*/
+@media only screen and (min-width:481px) and (max-width: 768px) {    
+    
+/*menu de gauche*/
+    nav ul li {
+        display: block;
+    }
+        .menu-lide {
+            width: 100%!important;
+            display: flex!important;
+            flex-direction: column-reverse!important;
+        }
+        .menu-lid {
+            width: 100%!important;
+            float: none!important;
+        }
+        .menu-lid ul li {
+            width: 88%!important;
+      margin: 0px!important;
+    }
+    .menu-lid a:hover {
+        width: 51%!important;
+    }
+    .sous {
+        box-shadow: 4px 4px 9px #ed84af!important;
+        width: 50%!important;
+        top: 92px !important;
+        left: 90px!important;
+        border-radius: 5px;
+    }
+    
+    .sous a {
+        padding: 7px!important;
+        margin-left:55px!important;
+    }
+    .Techno {
+        width: 8%!important;
+        margin-bottom: -9px!important;
+        margin-left: 39px!important;
+    }
+        .Techn{
+            margin-bottom: -18px;
+        }
+    
+        .Technologi {
+            margin-top: 20px;
+        }
+      
+        
+
+    nav ul li a{
+        font-size: 15px;
+       text-transform: uppercase;
+    }
+    a.active, a:hover {
+        background: #970147;
+        color: #70e0e5;
+    }
+    h1{
+        margin: 51px 0px 45px 67px;
+    }
+   
+    
+    /*slide*/
+    .carousel__snapper {
+        height: 73%;
+    }
+    .carousel__viewport {
+        left: 29px;
+    }
+    .carousel__navigation {
+        bottom:60px;
+        left: 29px;
+    }
+    .carousel {
+        padding-top: 42%;
+        margin-left: 0;
+        width: 100%;
+    }
+      
+    /*bar de connection et recherche*/
+    #faa {
+        top: 9px!important;
+        left: 1px!important;
+
+    }
+    #logo{
+        width: 8%;
+    }
+    .bar-connect {
+        margin-top: 20px;
+    }
+    #search {
+        height: 35.6px;
+        width: 70%;
+    }
+    .search-bar {
+        margin-top: 7px;
+        margin-left: 162px;
+    }
+    #recherche{
+            margin-top: -27px;
+            margin-left: 2px;
+        }
+        .fa {
+            font-size: 29px;
+            top: -61px!important;
+            left: -15px;
+        }
+    #fan {
+        top: -3px!important;
+        font-size: 22px;
+        margin-left: 131px;
+    }
+    #faan {
+    font-size: 29px;
+    top: -16px!important;
+    left: -47px;
+}
+#myDIV {
+    margin-left: -117px!important;
+    margin-top: 56px!important;
+
+}
+    nav ul li {
+        display: block;
+    }
+    .open .mobile-menu {
+        left: 301px;
+        margin-top: 59px;
+    }
+    /*footer*/
+    .footer ul {
+        font-size: 16px;
+    }    }
+    
+/*tablette*/
+
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+nav ul li {
+    display: block;
+}
+.men {
+    display: flex;
+    flex-direction: row !important;
+}
+    .menu-lide {
+        width: 100%!important;
+        display: flex!important;
+        flex-direction: column-reverse!important;
+    }
+    .menu-lid {
+        width: 100%!important;
+        float: none!important;
+        margin-top: 60px;
+    }
+    .menu-lid ul li {
+        width: 88%!important;
+  margin: 0px!important;
+}
+.menu-lid a:hover {
+    width: 51%!important;
+}
+.sous {
+    box-shadow: 4px 4px 9px #ed84af!important;
+    width: 73%!important;
+    top: 70px !important;
+    left: 29px!important;
+    border-radius: 5px;
+}
+
+.sous a {
+    padding: 7px!important;
+    margin-left:55px!important;
+}
+.Techno {
+    width: 17%!important;
+    margin-bottom: -9px!important;
+    margin-left: 39px!important;
+}
+    .Techn{
+        margin-bottom: -18px;
+    }
+
+    .Technologi {
+        margin-top: 20px;
+    }
+    
+    #myDIV {
+        margin-left: -92px!important;
+    }
+/*slide*/
+.carousel {
+    margin-left: 174px!important;
+}
+.carousel__navigation {
+    bottom: -12px;
+    left: 30px;
+}
+
+/*bar de connection et recherche*/
+#logo{
+    width: 8%;
+}
+.bar-connect{
+    display: flex;
+}
+#search {
+    height: 35.6px;
+    width: 70%;
+}
+.search-bar {
+    margin-top: 17px;
+    margin-left: 504px;
+}
+.fa {
+    font-size: 21px;
+    left: 50%;
+    top: -27px;
+}
+.header-account {
+    margin-left: -46px;
+    margin-top: -10px;
+}
+#con{
+        margin-left: -50px;
+        margin-top: 42px;    
+}
+ 
+.open .mobile-menu {
+    width: 14%!important;
+    left: 719px!important;
+    height: 153px!important;
+    padding-top: 29px!important;
+    margin-top: 81px!important;
+}
+
+}
+/*ordi*/
+@media only screen and (min-width:1025px) and (max-width: 1200px){
+    .search-bar {
+        margin-left: 611px;
+    }
+
+    h1 {
+        margin: 124px 0px 45px 47px;
+    }
+    .carousel {
+        margin-left: 305px;
+    }
+
+}
+/*ordi et tv*/
+@media only screen and (min-width:1920px) {
+.search-bar {
+    margin-left: 1269px;
+}
+#search {
+    height: 55.6px;
+    font-size: 27px;
+}
+.fa {
+    font-size: 32px;
+    left: 84%;
+    top: -47px;
+}
+#carousel__slide4 , #carousel__slide3, #carousel__slide2 ,#carousel__slide1 {
+    background-size: cover;
+}
+
+.carousel__viewport {
+    height: 395px;
+}
+.carousel__navigation-list{
+    font-size: 66px!important;
+}
+.carousel {
+    margin-left: 498px;
+}
+.Technologi{
+  font-size: 20px;
+}
+.Techno {
+  width: 12%;
+}
+h1 {
+  font-size: 112px;
+}
+h2{
+  font-size: 88px;
+}
+.description{
+    font-size: 30px;
+}
+.panier {
+    font-size: 35px!important;
+}
+footer .social > a {
+    font-size: 45px;
+}
+.footer ul a {
+    font-size: 27px;
+}
+footer .social > a {
+    width: 56px;
+    height: 54px;
+}
+.footer .copyright {
+    font-size: 23px;
+}
+
+.naa ul {
+    margin-left: 653px!important;
+}
+
+nav ul li {
+    margin: 0 93px!important;
+}
+}
+/*Autre*/
+ 
+@media (hover: hover) {
+    .carousel__snapper {
+      animation-name: tonext, snap;
+      animation-timing-function: ease;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  
+    .carousel__slide:last-child .carousel__snapper {
+      animation-name: tostart, snap;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+      animation-name: none;
+    }
+  }

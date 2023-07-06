@@ -1,0 +1,88 @@
+/*menu de gauche*/
+
+.Techno {
+    width: 23%;
+    margin-bottom: -11px;
+    margin-left: 39px;
+}
+.Techn {
+    margin-bottom: 12px;
+    margin-left: 39px;
+}
+.menu-lid {
+    float: left;
+}
+
+
+.menu-lid ul li {
+    width: 100%;
+    line-height: inherit;
+    margin: -11px 0 0 63px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.men  {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lid ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-lid a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 26px 0px;
+    width: 100%;
+}
+.menu-lid a:hover {
+    color: rgb(0, 255, 251);
+    border-bottom: 2px solid rgb(0, 255, 251);
+    width: 100%;
+    background: none;
+}
+
+.sous {
+    display: none;
+    box-shadow: 2px 1px 2px #CCC;
+    background-color: white;
+    position: absolute!important;
+    width: 79%;
+    z-index: 1000;
+    top: 92px;
+    left: 49px;
+    height: 139px;
+}
+.menu-lid > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    width: 30%;
+    margin-left: 10px;
+}
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+    margin-left: -50px;
+}
+.sous a:hover {
+    border-bottom: none;
+    background-color: #342c30;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 10px;
+}
+
+
+
+
