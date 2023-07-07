@@ -146,26 +146,26 @@ body{
   }
 
   #carousel__slide1{
-    background-image: url("../images/indicatif.jpg");
+    background-image: url("../images/slidtechno.png0.png");
     background-repeat: no-repeat; 
     background-size: contain;
     width: 100%!important
   }
   #carousel__slide2{
-    background-image: url("../images/images.jpg");
+    background-image: url("../images/slidchausu.png0.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%!important
   }
   #carousel__slide3{
-    background-image: url("../images/Telechargement.jpg");
+    background-image: url("../images/slidebijou.png0.png");
     background-repeat: no-repeat; 
     background-size: contain;
     width: 100%!important
   }
   
   #carousel__slide4{
-    background-image: url("../images/frigo.jpg");
+    background-image: url("../images/slidgazfrigo.jpg.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%!important
@@ -276,8 +276,19 @@ nav ul li {
   left: 81%;
   top: -30px;
 }
- .bar-connect img{
+
+ .bar-connect .logo{
     width: 7%;
+}
+.logo:hover{
+ background-image:url("/images/istockphoto.jpg")!important ;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.logo{
+  background-image: url("/images/istockphoto.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .bar-connect {
   display: flex;

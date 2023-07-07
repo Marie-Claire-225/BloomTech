@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="stylesheet" href="./css/style.css">
-         <link rel="stylesheet" href="./css/responsive.css">
          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />     
          <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +22,7 @@
          <link rel="stylesheet" href="css/menugauche.css">
          <link rel="stylesheet" href="css/menuhaut.css">
          <link rel="stylesheet" href="css/connexion.css">
+         <link rel="stylesheet" href="/css/popup.css">
          <script src="js/index.js"></script>
          <script src="js/connexion.js"></script>
 
@@ -35,7 +35,9 @@
     <section>
     <!--connection-->
         <div class="bar-connect">
-            <img id="logo" src="images/istockphoto.jpg" alt="logo du page">   
+                <a id="logo" href="#" class="logo"></a>
+                <!--<img id="logo" src="images/istockphoto.jpg" alt="logo du page">-->
+               
                 <div class="search-bar">
                     <input type="search" name="" id="search">
                     <div id="recherche"> <i class="fa-solid fa-magnifying-glass ic fa" id="fan"></i> </div> 
@@ -43,8 +45,14 @@
                 <div>
                     <span href=""onclick="myFunction()" > <i id="faa" class="fa-solid fa-users fa" style="color: #69867f;"></i> </span> 
                     <ul id="myDIV">
-                        <li id="login"><a href="" >Se Connexion</a></li>
-                        <li id="signup"><a href="">S'inscrire</a></li>
+                        <li id="login">
+                            <a  onclick="document.getElementById('id01').style.display='block'">
+                                Se connecter</a>
+                        </li>
+
+                        <li id="signup">
+                            <a href="" onclick="document.getElementById('id02').style.display='block'">S'inscrire</a>
+                        </li>
                     </ul>
                 </div>
         </div>
@@ -52,13 +60,13 @@
         <nav class="naa">
             <ul> 
                 <li>
-                    <a href="https://eco1.demopg.com/" class="menu-it active" > A propos </a>
+                    <a href="/pages/apropo.html" class="menu-it active" > A propos </a>
                 </li>
                 <li>
-                    <a class="menu-it" href="https://dribbble.com/tags/info_page"> Actualité</a>
+                    <a class="menu-it" href="/pages/apropo.html"> Actualité</a>
                 </li>
                 <li>
-                    <a class="menu-it" href="https://www.pixpa.com/fr/blog/create-best-contact-us-page-with-examples">Contact</a>
+                    <a class="menu-it" href="/pages/apropo.html">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -69,16 +77,16 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
             <ul class="mobile-menu">
-                <li>
-                    <a href="https://eco1.demopg.com/" class="menu-it active" > A propos </a>
-                </li>
-                <li>
-                    <a class="menu-it" href="https://dribbble.com/tags/info_page"> Actualité</a>
-                </li>
-                <li>
-                    <a class="menu-it" href="https://www.pixpa.com/fr/blog/create-best-contact-us-page-with-examples">Contact</a>
-                </li>
-            </ul>
+                    <li>
+                        <a href="/pages/apropo.html" class="menu-it active" > A propos </a>
+                    </li>
+                    <li>
+                        <a class="menu-it" href="/pages/apropo.html"> Actualité</a>
+                    </li>
+                    <li>
+                        <a class="menu-it" href="/pages/apropo.html">Contact</a>
+                    </li>
+                </ul>
           </div>
  </header>
      <!-- Slide et menu de gauche-->
@@ -87,7 +95,7 @@
              <nav class="menu-lid">
                 <ul class="men">
                     <li class="deroulant">
-                        <img  class="Techno" src="images/icons8-technologie.gif" alt=""> <a href="#">TECHNOLOGIE &ensp;</a>
+                        <img  class="Techno" src="images/icons8-technologie.gif" alt=""> <a href="/pages/technologie.html">TECHNOLOGIE &ensp;</a>
                       <ul class="sous">
                         <li><a href="https://www.pinterest.fr/search/pins/?q=tv&rs=typed">Tv </a></li>
                         <li><a href="https://www.pinterest.fr/search/pins/?q=smartphone&rs=typed"> Smartphone </a></li>
@@ -95,18 +103,18 @@
                       </ul>
                     </li>
                     <li class="deroulant">
-                        <img  id="tech"  class="Techn" src="images/icons8-utilisateur-homme.gif" alt=""> <a href="#"> HOMMES &ensp;</a>
+                        <img  id="tech"  class="Techn" src="images/icons8-utilisateur-homme.gif" alt=""> <a href="/pages/tenuehom.html"> HOMMES &ensp;</a>
                       <ul class="sous">
-                        <li><a href="https://www.pinterest.fr/search/pins/?q=tenue%20classe%20femme&rs=typed"> Tenues </a></li>
-                        <li><a href="https://www.pinterest.fr/search/pins/?q=accessoire%20femme&rs=typed"> Accesoires </a></li>
-                        <li><a href="https://www.elora.com/fr/news/148-comment-s-rsquo-habiller-selon-sa-morphologie"> Divers </a></li>
+                        <li><a href="https://www.pinterest.fr/search/pins/?q=tenue%20homme&rs=typed "> Tenues </a></li>
+                        <li><a href="https://www.pinterest.fr/search/pins/?q=accessoire%20homme&rs=typed"> Accesoires </a></li>
+                        <li><a href="https://leblogdemonsieur.com/homme-shabiller-selon-morphologie/"> Divers </a></li>
                       </ul>
                     </li>
-                    <li class="deroulant"> <img id="tec" class="Techn" src="images/icons8-utilisateur-femme.gif" alt=""><a href="#"> FEMMES &ensp;</a>
+                    <li class="deroulant"> <img id="tec" class="Techn" src="images/icons8-utilisateur-femme.gif" alt=""><a href="/pages/femme.html"> FEMMES &ensp;</a>
                         <ul class="sous">
-                            <li><a href="https://www.pinterest.fr/sohmode/tenue-classe-homme/"> Tenues </a></li>
-                            <li><a href="https://www.pinterest.fr/search/pins/?q=accessoire%20homme&rs=typed"> Accesoires </a></li>
-                            <li><a href="https://leblogdemonsieur.com/homme-shabiller-selon-morphologie/"> Divers </a></li>
+                            <li><a href="https://www.pinterest.fr/search/pins/?q=tenue%20femme&rs=typed"> Tenues </a></li>
+                            <li><a href="https://www.pinterest.fr/search/pins/?q=accessoire%20femme&rs=typed "> Accesoires </a></li>
+                            <li><a href="https://www.elora.com/fr/news/148-comment-s-rsquo-habiller-selon-sa-morphologie"> Divers </a></li>
                         </ul>
                       </li>
                   </ul>
@@ -276,6 +284,66 @@
         </ul>
         <p class="copyright">BloomTech © 2023</p>
     </footer>
-    <script src="js/main.js"></script>
+                            <!---porpu se connecter-->
+
+                            <div id="id01" class="modal">
+  
+                                <form class="modal-content animate" action="" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <!--<img src="/images/av" alt="Avatar" class="avatar">-->
+                                  </div>
+                              
+                                  <div class="container">
+                                    <label for="uname"><b>Nom d'utilisateur</b></label>
+                                    <input type="text" placeholder="Enter votre Nom svp" name="name" required>
+                              
+                                    <label for="psw"><b>Mot de passe</b></label>
+                                    <input type="text" placeholder="Enter votre mot de passe" name="psw" required>
+                                      
+                                    <button type="submit">Se connecter</button>
+                                    <label>
+                                      <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
+                                    </label>
+                                  </div>
+                              
+                                  <div class="container" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+                                    <span class="psw">Mot de passe <a href="#">Oublié?</a></span>
+                                  </div>
+                                </form>
+                              </div>
+
+
+              
+                             <!--<div id="id02" class="modal">
+                                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <form class="modal-content" action="" method="post">
+                                  <div class="container">
+                                    <h1>S'inscrire</h1>
+                                    <p>Veuillez remplir ce formulaire pour créer un compte svp.</p>
+                                    <hr>
+                                    <label for="email"><b>Email</b></label>
+                                    <input type="text" placeholder="Enter votre Email" name="email" required>
+                              
+                                    <label for="psw"><b>Mot de passe </b></label>
+                                    <input type="password" placeholder="Enter votre Mot de passe" name="psw" required>
+                              
+                                    <label for="psw-repeat"><b>Confirmez le Mot de passe</b></label>
+                                    <input type="password" placeholder="Confirmez votre Mot de passe" name="psw-repeat" required>
+                                    
+                                    <label>
+                                      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                                    </label>
+                              
+                                    <p>En créant un compte, vous acceptez nos Conditions<a href="#" style="color:dodgerblue">Utilisation  &  Confidentialité</a>.</p>
+                              
+                                    <div class="clearfix">
+                                      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Normal</button>
+                                      <button type="submit" class="signupbtn">S' inscrire</button>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>-->
 </body>
 </html>

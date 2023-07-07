@@ -1,0 +1,25 @@
+.pi {
+    text-align: center!important;
+    margin-top: 10px!important;
+    font-size: 15px!important;
+}
+
+ h2{
+    text-align: center;
+}
+
+.propo{
+    width: 80%;
+    margin-left: 125px;
+}
+
+h1{
+    position:relative;
+}
+h1:hover{
+    text-transform: uppercase;
+    color:#970147;
+}
+.bann img{
+    width: 100%;
+}

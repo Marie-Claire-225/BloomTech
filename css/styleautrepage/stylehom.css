@@ -1,0 +1,16 @@
+.imagefonhom{
+    width: 70%;
+    float: right;
+    margin-left: 20px;
+    margin-right: 79px;
+  
+}
+.imagefonhom img{
+    width: 100%;
+}
+h1 {
+    font-family: 'Lobster', 'cursive';
+    font-size: 62px;
+    margin: 356px 0px 45px 67px;
+    position: relative;
+}
