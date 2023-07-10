@@ -3,11 +3,9 @@
 .Techno {
     width: 23%;
     margin-bottom: -11px;
-    margin-left: 39px;
 }
 .Techn {
     margin-bottom: 12px;
-    margin-left: 39px;
 }
 .menu-lid {
     float: left;
@@ -25,6 +23,9 @@
 .men  {
     display: flex;
     flex-direction: column;
+    margin-left: 73px;
+    background: white;
+    height: 253px;
 }
 
 .menu-lid ul::after{
@@ -73,7 +74,6 @@
 }
 .sous a:hover {
     border-bottom: none;
-    background-color: #342c30;
     width: 100px;
     text-align: center;
     border-radius: 5px;

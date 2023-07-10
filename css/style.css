@@ -4,7 +4,8 @@
 }
 body{
   width: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,'Lato';
+  background-color: #eeebeb;
 }
 
   /*menu de gauche*/
@@ -61,13 +62,6 @@ body{
     }
   }
   
-  body {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 auto;
-  font-family: 'Lato', sans-serif;
-  }
-  
   * {
     box-sizing: border-box;
     scrollbar-color: transparent transparent; /* thumb and track color */
@@ -91,23 +85,46 @@ body{
     -ms-overflow-style: none;
   }
   /*les font*/
+  .pri{
+    color: #aaa;
+  }
+
   ol, li {
     list-style: none;
   }
-  h2{
-    font-size: 45px;
-    margin: 45px 0px  45px 67px;
-    font-family: 'Lobster', 'cursive';
-
+  .tous {
+    color: #eeebeb;
+    margin-top: 26px;
+}
+  .tous:hover{
+    color: #f8aed7;
+      margin-top: 26px;
   }
+  h2 {
+    font-size: 27px;
+    margin: 20px 0px 20px 2px;
+    color: white;
+    padding-left: 20px;
+    width: 93%;
+}
   h1 {
-    font-family: 'Lobster', 'cursive';
-    font-size: 62px;
-    margin: 45px 0px 45px 67px;
+    font-size: 27px;
+    margin: 20px 0px 20px 2px;
+    color: white;
+    padding-left: 20px;
+    width: 93%;
 }
   h4{
-    font-family: 'Lobster', 'cursive';
+    margin-bottom: 7px;
+
   }
+
+  .tir {
+    background: #7e033d;
+    width: 90%;
+    margin-left: 69px;
+    display: flex;
+}
   .description:hover{
     text-transform: uppercase;
     margin-top: 35px;
@@ -266,14 +283,16 @@ nav ul li {
   height: 38.6px;
   border-radius: 40px;
   font-size: 17px;
+  width: 100%;
+  padding: 0 10px 0px 42px;
 }
 
 .fa {
   color: #000000;
-  font-size: 23px;
+  font-size: 20px;
   z-index: 1;
   position: relative;
-  left: 81%;
+  left: 2%;
   top: -30px;
 }
 
@@ -285,17 +304,24 @@ nav ul li {
  background-repeat: no-repeat;
  background-size: contain;
 }
-.logo{
-  background-image: url("/images/istockphoto.jpg");
+.logo {
+  background-image: url(/images/istockphoto.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+  margin-left: 79px;
+  margin-top: 16px;
+
 }
 .bar-connect {
   display: flex;
+  background: white;
+  margin-top: 37px;
 }
 .search-bar {
   margin-top: 27px;
-  margin-left: 906px;
+  margin-left: 290px;
+  width: 35%;
+
 }
 /*menu de gauche*/
 .menu-gauche {
@@ -330,10 +356,15 @@ background: none;
 }
 
 /*section meilleur vente*/
-.article-meilleur-vente{
-  width: 100%;
+.article-meilleur-vente {
+  width: 90%;
   display: flex;
   justify-content: space-between;
+  background: white;
+  margin-left: 69px;
+  padding-top: 29px;
+  padding-bottom: 40px;
+
 }
 .article-vente{
 width: 25%;
@@ -352,17 +383,29 @@ text-align: center;
 }
  /*section nouveau article*/
  .nouveaux-article{
+  width: 90%;
   display: flex;
-  justify-content: center;
- }
+  justify-content: space-between;
+  background: white;
+  margin-left: 69px;
+  padding-top: 29px;
+  padding-bottom: 40px;
+
+}
  .panier:hover{
 background: none;
-text-transform: capitalize;
+color: #7e033d;
+border: 1px solid;
+
  }
- .panier{
-  font-size: 20px;
- }
- 
+ .panier {
+  font-size: 12px;
+  background: #7e033d;
+  color: #eef3f3;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 12px;
+}
 /*banniere*/
 .banniere{
   width: 100%;
@@ -370,6 +413,17 @@ text-transform: capitalize;
 }
 .banniere img{
   width: 100%;
+}
+#achat{
+    margin-left: 94px;
+    margin-top: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+#achat:hover ,#achat:active{
+  background: none;
+color: #70e0e5;  
 }
  /*footer*/
  .footer {
@@ -406,7 +460,6 @@ text-transform: capitalize;
   opacity:1;
   background:none;
   color: #70e0e5;
-  text-transform: uppercase;
 }
 
 .footer .social {
@@ -415,7 +468,7 @@ text-transform: capitalize;
 }
 
 footer .social > a {
-  font-size: 34px;
+  font-size: 28px;
   width: 47px;
   height: 43px;
   line-height: 40px;
