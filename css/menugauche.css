@@ -1,8 +1,10 @@
 /*menu de gauche*/
 
 .Techno {
-    width: 23%;
+    width: 16%;
     margin-bottom: -11px;
+    font-size: 30px;
+    margin-left: 10px;
 }
 .Techn {
     margin-bottom: 12px;
@@ -78,6 +80,7 @@
     text-align: center;
     border-radius: 5px;
 }
+/*
 .deroulant > a::after{
     content:" ▼";
     font-size: 10px;
