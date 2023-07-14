@@ -4,16 +4,10 @@
     height: 234px;
     margin-bottom: 57px;
 }
-.imagetech img{
-    width: 85%;
-    margin-left: -15px;
+.imagetech img {
+    width: 60%;
+    margin-left: 35px;
     z-index: -1;
     position: relative;
-}
-
-.imagetech{
-    width: 70%;
-    float: right;
-    margin-bottom: 50px!important;
-    margin-right: 76px;
+    /* float: right; */
 }

@@ -190,6 +190,17 @@ nav ul li {
         padding-left: 25px;
         width: 86%;
     }
+    #menn , .men{
+        height: 118px!important;
+        margin-bottom: 57px!important;
+        margin-left: 35px!important;
+        width: 83%;
+    }
+
+    .imagetech img,.imagefonhom img,.imagfonfem img {
+        width: 77%!important;
+        margin-bottom: 66px!important;
+    }
     }
 
 /*Telephone*/
@@ -398,6 +409,21 @@ h1, h2 {
 .banniere img {
     margin-left: 82px;
 }
+
+.men {
+    margin-left: 46px!important;
+    width: 77%;
+}
+
+#menn{
+        margin-left: 46px!important;
+        height: 134px!important;
+}
+.imagetech img ,.imagefonhom img ,.imagfonfem img{
+    width: 77%!important;
+    margin-left: 46px!important;
+    margin-bottom: 50px;
+}
 }
     
 /*tablette*/
@@ -452,14 +478,19 @@ nav ul li {
     width: 95%!important;
     height: auto!important;
     margin-left: 42px!important;
+
+}
+#menn {
+    margin-left: 40px!important;
+    height: 150px!important;
 }
     .menu-lide {
-        width: 100%!important;
+        width: 95%!important;
         display: flex!important;
         flex-direction: column-reverse!important;
     }
     .menu-lid {
-        width: 93%!important;
+        width: 98%!important;
         float: none!important;
         margin-top: 60px;
     }
@@ -545,7 +576,10 @@ nav ul li {
     padding-top: 29px!important;
     margin-top: 81px!important;
 }
-
+.imagfonfem img,.imagetech img{
+    width: 94%!important;
+  
+}
 }
 /*ordi*/
 @media only screen and (min-width:1025px) and (max-width: 1200px){
@@ -586,6 +620,25 @@ nav ul li {
 .sous a{
     padding: 10px!important;
 }
+/*le style des autre pade*/
+.imagetech img{
+    margin-left: 101px!important;
+}
+.imagefonhom img{
+    margin-left: 112px!important;
+ 
+}
+.men {
+    margin-left: 73px!important;
+   
+}
+#menn {
+    margin-left: 77px!important;
+
+}
+.imagfonfem img {
+    margin-left:64px!important
+} 
 }
 /*ordi et tv*/
 @media only screen and (min-width:1920px) {
@@ -654,6 +707,12 @@ nav ul li {
 }
 .menu-lid {
 width: 25%;}
+
+
+.imagetech img ,.imagefonhom img,.imagfonfem img {
+ margin-left: 4px!important;
+
+}
 }
 /*Autre*/
  

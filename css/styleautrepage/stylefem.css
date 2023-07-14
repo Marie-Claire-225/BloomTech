@@ -1,19 +1,13 @@
 
 .men {
-    margin-left: 161px;
-    height: 234px;
-    margin-bottom: 57px;
+    margin-left: 161px!important;
+    height: 234px!important;
+    margin-bottom: 57px!important;
 }
 .imagfonfem img{
-    width: 85%;
-    margin-left: -15px;
-    z-index: -1;
-    position: relative;
-}
-
-.imagfonfem{
-    width: 70%;
-    float: right;
-    margin-bottom: 50px!important;
-    margin-right: 76px;
-}
+        width: 60%;
+        margin-left: 35px;
+        z-index: -1;
+        position: relative;
+        /* float: right; */
+    }
