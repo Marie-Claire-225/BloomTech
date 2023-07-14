@@ -12,8 +12,8 @@
 }
   
   #login:hover ,#signup:hover {
-    border: 2px solid   #70e0e5;  
-    background: #1a1a1a;
+    border: 2px solid  ;  
+    background:  #3be0f3;
     transition: .5s;
   }
   
@@ -28,16 +28,17 @@
 }
   #signup a,#login a {
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase!important;
     padding: auto;
   }
   
-  #signup a:hover, #login a :hover {
-    color: #970147!important;
-  }
-
   #faa {
-    top: 25px;
-    left: 21px;
-    font-size: 30px;
+    top: -21px;
+    left: 153px;
+    font-size: 25px;
+}
+#xion {
+  margin-left: 76px;
+    padding-top: 39px;
+
 }

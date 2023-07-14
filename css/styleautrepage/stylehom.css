@@ -1,16 +1,19 @@
-.imagefonhom{
+
+.men {
+    margin-left: 161px;
+    height: 234px;
+    margin-bottom: 57px;
+}
+.imagefonhom img {
+    width: 85%;
+    margin-left: -15px;
+    z-index: -1;
+    position: relative;
+}
+
+.imagefonhom {
     width: 70%;
     float: right;
-    margin-left: 20px;
-    margin-right: 79px;
-  
-}
-.imagefonhom img{
-    width: 100%;
-}
-h1 {
-    font-family: 'Lobster', 'cursive';
-    font-size: 62px;
-    margin: 356px 0px 45px 67px;
-    position: relative;
+    margin-bottom: 50px!important;
+    margin-right: 76px;
 }

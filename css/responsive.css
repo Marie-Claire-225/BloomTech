@@ -4,7 +4,7 @@
 
     #faaa{
         color: #95094d;
-        margin-left: 10px;
+        margin-left: 62px;
         top: 57px;
         font-size: 26px!important;
     }
@@ -29,7 +29,7 @@ nav ul li {
         flex-direction: column-reverse!important;
     }
     .menu-lid {
-        width: 100%!important;
+        width: 93%!important;
         float: none!important;
     }
     .menu-lid ul li {
@@ -41,15 +41,19 @@ nav ul li {
 }
 .sous {
     box-shadow: 4px 4px 9px #ed84af!important;
-    width: 66%!important;
-    top: 92px !important;
-    left: 90px!important;
+    width: 93%!important;
+    top: 69px !important;
+    left: 3px!important;
     border-radius: 5px;
 }
 
 .sous a {
     padding: 7px!important;
-    margin-left:55px!important;
+    margin-left: -2px!important;
+}
+
+.banniere img {
+    margin-left: 85px;
 }
 .Techno {
     width: 17%!important;
@@ -81,7 +85,8 @@ nav ul li {
       
     /*bar de connection et recherche*/
     #logo{
-        width: 8%;
+     margin-left: 3px!important
+
     }
     .bar-connect {
         margin-top: 20px;
@@ -110,21 +115,37 @@ nav ul li {
 
     }
     header {
-        padding: 0 65px!important;
+        padding: 0 127px!important;
         margin-top: -37px;
         margin-bottom: 40px;
     }
     .panier {
-        font-size: 8px;
+        font-size: 12px;
         text-decoration: none;
         padding:none; 
     }
     /*connexion*/
     .open .mobile-menu {
         width: 31%!important;
-        left: 234px!important;
+        left: 158px!important;
         padding-top: 21px!important;
         margin-top: 20px!important;
+    }
+
+    .article-meilleur-vente , .nouveaux-article{
+        margin-left: 86px;
+        flex-direction: column;
+    }
+
+    .article-vente {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 19px;
+    }
+   
+    .tir {
+        margin-left: 86px; 
     }
     /*footer*/
 
@@ -160,6 +181,14 @@ nav ul li {
     }
     #meilleur-vente , #Nouveaux-Articles{
         margin-left: -51px;
+    }
+
+    h1, h2 {
+        font-size: 17px;
+        margin: 13px 0px 9px -22px!important;
+        color: white;
+        padding-left: 25px;
+        width: 86%;
     }
     }
 
@@ -200,22 +229,22 @@ nav ul li {
         box-shadow: 4px 4px 9px #ed84af!important;
         width: 80%!important;
         top: 92px !important;
-        left: 90px!important;
+        left: -33px!important;
         border-radius: 5px;
     }
     
     .sous a {
         padding: 7px!important;
-        margin-left:55px!important;
+        margin-left:-6px!important
     }
     .Techno {
         width: 78%!important;
         margin-bottom: -9px!important;
-        margin-left: 116px!important;
+        margin-left: 46px!important
     }
     .Techn {
         margin-bottom: 12px;
-        margin-left: 71px;
+        margin-left: 23px;
     }
     
         .Technologi {
@@ -322,29 +351,52 @@ nav ul li {
         margin-bottom: 20px;
     }
     
-    .meilleur-vente{
-        margin-left: -46px!important;
+    .article-meilleur-vente, .nouveaux-article {
+        margin-left: 86px;
+        flex-direction: column;
     }
-
     #Nouveaux-Articles{
         margin-left: -46px!important;
 
     }
-
+    
+    .article-vente {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 19px;
+    }
     
     h1{
         margin: 5px 0px 5px 7px!important;
     } 
     
     .men {
-        display: flex!important;
         flex-direction: row!important;
-        margin-left: 26px!important;
-        background: white!important;
-        height: 154px!important;
+        background: white;
+        height: 115px!important;
+        margin-left: 25px!important;
+        width: 87%;
     }
 .choi{
     display: none; 
+}
+#meilleur-vente , #Nouveaux-Articles{
+    margin-left:-39px
+}
+
+h1, h2 {
+    font-size: 17px;
+    margin: 13px 0px 9px -22px!important;
+    color: white;
+    padding-left: 25px;
+    width: 86%;
+}
+.tir {
+    margin-left: 86px;
+}
+.banniere img {
+    margin-left: 82px;
 }
 }
     
@@ -367,20 +419,27 @@ nav ul li {
         margin-top: -6px;
     }
 
-    .meilleur-vente{
-        margin-left: -46px!important;
+    .meilleur-vente {
+        width: 98%;
+        margin-left: -27px;
+    }
+
+       .panier {
+        font-size: 9px;
+        padding:8px;
+        border-radius: 6px;
     }
 
     #Nouveaux-Articles{
-        margin-left: -46px!important;
-
+        width: 98%;
+        margin-left: -27px;
     }
 
     #pach{
         display: none;
     }
-    h1{
-        margin: 5px 0px 5px 7px!important;
+    h1,h2{
+        margin: 7px 0px 5px -17px!important;
     }
     .imagetech,.imagefonhom,.imagfonfem {
         display: contents;}
@@ -390,6 +449,9 @@ nav ul li {
 .men {
     display: flex;
     flex-direction: row !important;
+    width: 95%!important;
+    height: auto!important;
+    margin-left: 42px!important;
 }
     .menu-lide {
         width: 100%!important;
@@ -451,14 +513,13 @@ nav ul li {
 }
 .bar-connect {
     display: flex;
-    width: 94%;
-    margin-left: 30px;
+    width: 100%;
 }
-/*
-#search {
-    height: 35.6px;
-    width: 70%;
-}*/
+#faa {
+    top: 30px!important;
+    left: 139px!important;
+    font-size: 23px!important;
+}
 .search-bar {
     margin-top: 17px;
     margin-left: 114px;
@@ -488,17 +549,43 @@ nav ul li {
 }
 /*ordi*/
 @media only screen and (min-width:1025px) and (max-width: 1200px){
+    
+.imagefonhom {
+    margin-right: 75px!important;
+}
+
     .search-bar {
-        margin-left: 611px;
+        margin-left: 127px;
+    }
+    #Nouveaux-Articles {
+        width: 95%;
+        margin-left: 6px;
+    }
+    .meilleur-vente {
+        width: 95%;
+        margin-left: 5px;
     }
 
-    h1 {
-        margin: 124px 0px 45px 47px;
-    }
-    .carousel {
-        margin-left: 305px;
-    }
+.men {
+    margin-left: 74px!important;
+    height: 167px!important;
+}
+.carousel {
+    margin-left: 451px;
+    width: 56%;
 
+}
+
+.choi{
+    margin-top: 18px;
+}
+
+.menu-lid a {
+    padding: 0px 0px!important;
+}
+.sous a{
+    padding: 10px!important;
+}
 }
 /*ordi et tv*/
 @media only screen and (min-width:1920px) {
@@ -565,6 +652,8 @@ footer .social > a {
 nav ul li {
     margin: 0 93px!important;
 }
+.menu-lid {
+width: 25%;}
 }
 /*Autre*/
  
@@ -585,4 +674,12 @@ nav ul li {
     .carousel__snapper {
       animation-name: none;
     }
+  }
+
+
+  @media only screen and (max-width:1024px) {
+
+#xion {
+   display: none;
+  }
   }

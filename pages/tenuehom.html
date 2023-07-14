@@ -38,27 +38,32 @@
     </head>
 <body>
     <!-- En tête-->
-    <section>
+    <section id="menu">
     <!--connection-->
         <div class="bar-connect">
-            <a id="logo" href="/index.html" class="logo"></a>                <div class="search-bar">
+                <a id="logo" href="#" class="logo"></a>
+                <!--<img id="logo" src="images/istockphoto.jpg" alt="logo du page">-->
+               
+                <div class="search-bar">
                     <input type="search" name="" id="search">
                     <div id="recherche"> <i class="fa-solid fa-magnifying-glass ic fa" id="fan"></i> </div> 
                 </div>
                 <div>
-                    <span href=""onclick="myFunction()" > <i id="faa" class="fa-solid fa-users fa" style="color: #69867f;"></i> </span> 
+                    <span href=""onclick="myFunction()" ><p id="xion">connexion</p><i id="faa" class="fa-solid fa-users fa" style="color: #69867f;"></i> </span> 
                     <ul id="myDIV">
-                        
                         <li id="login">
                             <a  onclick="document.getElementById('id01').style.display='block'">
                                 Se connecter</a>
                         </li>
 
-                        <li id="signup"><a href="">S'inscrire</a></li>
+                        <li id="signup">
+                            <a href="" onclick="document.getElementById('id02').style.display='block'">S'inscrire</a>
+                        </li>
                     </ul>
                 </div>
+
+                <a href="" id="achat"><p id="pach">panier</p>  <i class="fa-solid fa-cart-shopping" style="color: #95094d;" id="faaa"></i> </a>
         </div>
-        <a href="" id="achat"> <p id="pach"> Votre panier d'achat </p> <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i> </a>
     <header>
         <nav class="naa">
             <ul> 
@@ -98,7 +103,7 @@
              <nav class="menu-lid">
                 <ul class="men">
                     <li class="deroulant">
-                        <img  class="Techno" src="/images/icons8-technologie.gif" alt=""> <a href="/pages/technologie.html">TECHNOLOGIE &ensp;</a>
+                        <i class="fa-solid fa-microchip Techno" style="color: #131416;"></i><a href="/pages/technologie.html" > <p class="choi"> TECHNOLOGIE &ensp;</p></a>
                       <ul class="sous">
                         <li><a href="https://www.pinterest.fr/search/pins/?q=tv&rs=typed">Tv </a></li>
                         <li><a href="https://www.pinterest.fr/search/pins/?q=smartphone&rs=typed"> Smartphone </a></li>
@@ -106,14 +111,14 @@
                       </ul>
                     </li>
                     <li class="deroulant">
-                        <img  id="tech"  class="Techn" src="/images/icons8-utilisateur-homme.gif" alt=""> <a href="/pages/tenuehom.html"> HOMMES &ensp;</a>
+                        <img  id="tech"  class="Techn" src="/images/icons8-homme-populaire-48.png" alt=""> <a href="/pages/tenuehom.html"> <p class="choi"> HOMMES</p> &ensp;</a>
                       <ul class="sous">
-                        <li><a href=" https://www.pinterest.fr/search/pins/?q=tenue%20homme&rs=typed"> Tenues </a></li>
+                        <li><a href="https://www.pinterest.fr/search/pins/?q=tenue%20homme&rs=typed "> Tenues </a></li>
                         <li><a href="https://www.pinterest.fr/search/pins/?q=accessoire%20homme&rs=typed"> Accesoires </a></li>
                         <li><a href="https://leblogdemonsieur.com/homme-shabiller-selon-morphologie/"> Divers </a></li>
                       </ul>
                     </li>
-                    <li class="deroulant"> <img id="tec" class="Techn" src="/images/icons8-utilisateur-femme.gif" alt=""><a href="/pages/femme.html"> FEMMES &ensp;</a>
+                    <li class="deroulant"> <img id="tec" class="Techn" src="/images/icons8-femme-populaire-48.png" alt=""><a href="/pages/femme.html"> <p class="choi"> FEMMES </p> &ensp;</a>
                         <ul class="sous">
                             <li><a href="https://www.pinterest.fr/search/pins/?q=tenue%20femme&rs=typed"> Tenues </a></li>
                             <li><a href="https://www.pinterest.fr/search/pins/?q=accessoire%20femme&rs=typed "> Accesoires </a></li>
@@ -123,13 +128,16 @@
                   </ul>
               </nav>
                
-            <div class="imagefonhom">
+              <div class="imagefonhom">
                 <img src="/images/paghomme.png0.png" alt="">
             </div>
     </section>
      <!-- Meilleures vente-->
-    <section class="meilleur-vente">
-        <h1>Meilleur ventes</h1>
+    <section class="meilleur-vente" id="meilleur-vente">
+         <div class="tir">
+            <h1>Meilleur ventes</h1>
+           <h5 class="tous">tous voir</h5>
+        </div>
         <div class="article-meilleur-vente">
             <div class="article-vente">
                 <div>
@@ -137,93 +145,167 @@
                 </div>
                <div class="description">
                     <h4>Lorem ipsum</h4>
-                    <h4>1500000fr</h4>
+                    <h4 id="pri">1 500 000fr</h4>
                     <a class="panier" href="">
-                        <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
                     </a>
                </div>
             </div>
             <div class="article-vente">
                 <div>
-                    <a href="/images/tenuhom.jpg"><img src="/images/tenuhom.jpg" alt=""> </a>
+                    <a href="/images/vesteho.jpg"><img src="/images/vesteho.jpg" alt=""> </a>
                 </div>
                 <div class="description">
                     <h4>Lorem ipsum</h4>
-                    <h4>1500000fr</h4>
+                    <h4 id="pri">1 500 000fr</h4>
                     <a class="panier" href="">
-                        <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
                     </a>
                 </div>
-                
-
             </div>
             <div class="article-vente">
                 <div>
-                    <a href="/images/bijoucomplethom.jpg"> <img src="/images/bijoucomplethom.jpg" alt=""></a>
+                    <a href="/images/chapohom.jpg"> <img src="/images/chapohom.jpg" alt=""></a>
                 </div>
                 <div class="description">
                    <h4>Lorem ipsum</h4>
-                   <h4>1500000fr</h4>
+                   <h4 id="pri">1 500 000fr</h4>
                    <a class="panier" href="">
-                        <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>
-                   </a> 
+                    Ajoutez au panier
+                    <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                   </a>
                 </div>   
             </div>
             <div class="article-vente">
                 <div>
-                    <a href="/images/culotehom.jpg"><img src="/images/culotehom.jpg" alt=""></a>
+                    <a href="/images/aceves.jpg"><img src="/images/aceves.jpg" alt=""></a>
                 </div>
                 <div class="description">
                     <h4>Lorem ipsum</h4>
-                    <h4>1500000fr</h4>
+                    <h4 id="pri">1 500 000fr</h4>
                     <a class="panier" href="">
-                        <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
                     </a>
                 </div>
                 
             </div>
-        </div>
-    </section>
-     <!-- Nouveaux et Bannier -->
-    <section>
-        <h2>Nouveaux Articles</h2>
-        <div class="nouveaux-article">
             <div class="article-vente">
                 <div> 
-                    <a href="/images/lunette.jpg"><img src="/images/lunette.jpg" alt=""></a>
+                    <a href="/images/boitedemontrehom.jpg"><img src="/images/boitedemontrehom.jpg" alt=""></a>
                 </div> 
                 <div class="description">
                     <h4>Lorem ipsum</h4>
-                    <h4>1500000fr</h4>
+                    <h4 id="pri">1 500 000fr</h4>
                     <a class="panier" href="">
-                        <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>
-                    </a>             
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                    </a>           
                 </div>
             </div>
             <div class="article-vente">
                 <div>
-                    <a href="/images/boitedemontrehom.jpg"> <img src="/images/boitedemontrehom.jpg" alt=""> </a>
+                    <a href="/images/ensemho.jpg"> <img src="/images/ensemho.jpg" alt=""> </a>
                 </div>
                 <div class="description">
                     <h4>Lorem ipsum</h4>
-                    <h4>1500000fr</h4>
+                    <h4 id="pri">1 500 000fr</h4>
                     <a class="panier" href="">
-                        <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Nouveaux et Bannier -->
+    <section id="Nouveaux-Articles">
+        <div class="tir">
+            <h2>Nouveaux Articles</h2>
+            <h5 class="tous">tous voir</h5>
+        </div>
+        <div class="nouveaux-article">
+            <div class="article-vente">
+                <div>
+                    <a href="/images/jes.jpg"> <img src="/images/jes.jpg" alt=""></a>
+                </div> 
+                <div class="description">
+                    <h4>Lorem ipsum</h4>
+                    <h4 id="pri">1 500 000fr</h4>
+                    <a class="panier" href="">
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                    </a>           
+                </div>
+            </div>
+            <div class="article-vente">
+                <div>
+                    <a href="/images/chaussure.jpeg"><img src="/images/chaussure.jpeg" alt=""></a>
+                </div>
+                <div class="description">
+                    <h4>Lorem ipsum</h4>
+                    <h4 id="pri">1 500 000fr</h4>
+                    <a class="panier" href="">
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
                     </a>
                 </div>
             </div>
             <div class="article-vente">
                 <div> 
-                    <a href="/images/chapohom.jpg"> <img src="/images/chapohom.jpg" alt=""> </a>
+                    <a href="/images/jus.jpg"> <img src="/images/jus.jpg" alt=""> </a>
                 </div>
                 <div class="description">
                     <h4>Lorem ipsum</h4>
-                    <h4>1500000fr</h4>
+                    <h4 id="pri">1 500 000fr</h4>
                     <a class="panier" href="">
-                        <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>
-                    </a> 
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                    </a>
                 </div>
             </div>
+            <div class="article-vente">
+                <div> 
+                    <a href="/images/bijoucomplethom.jpg"> <img src="/images/bijoucomplethom.jpg " alt=""> </a>
+                </div>
+                <div class="description">
+                    <h4>Lorem ipsum</h4>
+                    <h4 id="pri">1 500 000fr</h4>
+                    <a class="panier" href="">
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                    </a>
+                </div>
+            </div>
+            <div class="article-vente">
+                <div>
+                    <a href="/images/chaussure.jpeg"><img src="/images/chaussure.jpeg" alt=""></a>
+                </div>
+               <div class="description">
+                    <h4>Lorem ipsum</h4>
+                    <h4 id="pri">1 500 000fr</h4>
+                    <a class="panier" href="">
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                    </a>
+               </div>
+            </div>
+            <div class="article-vente">
+                <div>
+                    <a href="/images/chapohom.jpg"><img src="/images/chapohom.jpg" alt=""> </a>
+                </div>
+                <div class="description">
+                    <h4>Lorem ipsum</h4>
+                    <h4 id="pri">1 500 000fr</h4>
+                    <a class="panier" href="">
+                        Ajoutez au panier
+                        <!-- <i class="fa-solid fa-cart-shopping" style="color: #95094d;"></i>-->
+                    </a>
+                </div>
+            </div>
+
         </div>
         <div class="banniere">
             <img src="/images/SL.jpg" alt="">
@@ -241,40 +323,66 @@
         </ul>
         <p class="copyright">BloomTech © 2023</p>
     </footer>
+                            <!---porpu se connecter-->
 
-                <!---porpu se connecter-->>
-
-                <div id="id01" class="modal">
+                            <div id="id01" class="modal">
   
-                    <form class="modal-content animate" action="" method="post">
-                      <div class="imgcontainer">
-                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                        <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                      </div>
-                  
-                      <div class="container">
-                        <label for="uname"><b>Nom d'utilisateur</b></label>
-                        <input type="text" placeholder="Enter votre Nom svp" name="name" required>
-                  
-                        <label for="psw"><b>Mot de passe</b></label>
-                        <input type="text" placeholder="Enter votre mot de passe" name="psw" required>
-                          
-                        <button type="submit">Se connecter</button>
-                        <label>
-                          <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
-                        </label>
-                      </div>
-                  
-                      <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
-                        <span class="psw">Mot de passe <a href="#">Oublié?</a></span>
-                      </div>
-                    </form>
-                  </div>
+                                <form class="modal-content animate" action="" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <!--<img src="/images/av" alt="Avatar" class="avatar">-->
+                                  </div>
+                              
+                                  <div class="container">
+                                    <label for="uname"><b>Nom d'utilisateur</b></label>
+                                    <input type="text" placeholder="Enter votre Nom svp" name="name" required>
+                              
+                                    <label for="psw"><b>Mot de passe</b></label>
+                                    <input type="text" placeholder="Enter votre mot de passe" name="psw" required>
+                                      
+                                    <button type="submit">Se connecter</button>
+                                    <label>
+                                      <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
+                                    </label>
+                                  </div>
+                              
+                                  <div class="container" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+                                    <span class="psw">Mot de passe <a href="#">Oublié?</a></span>
+                                  </div>
+                                </form>
+                              </div>
 
 
-    <script src="/js/index.js"></script>
-    <script src="/js/connexion.js"></script>
- 
+              
+                             <!--<div id="id02" class="modal">
+                                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <form class="modal-content" action="" method="post">
+                                  <div class="container">
+                                    <h1>S'inscrire</h1>
+                                    <p>Veuillez remplir ce formulaire pour créer un compte svp.</p>
+                                    <hr>
+                                    <label for="email"><b>Email</b></label>
+                                    <input type="text" placeholder="Enter votre Email" name="email" required>
+                              
+                                    <label for="psw"><b>Mot de passe </b></label>
+                                    <input type="password" placeholder="Enter votre Mot de passe" name="psw" required>
+                              
+                                    <label for="psw-repeat"><b>Confirmez le Mot de passe</b></label>
+                                    <input type="password" placeholder="Confirmez votre Mot de passe" name="psw-repeat" required>
+                                    
+                                    <label>
+                                      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                                    </label>
+                              
+                                    <p>En créant un compte, vous acceptez nos Conditions<a href="#" style="color:dodgerblue">Utilisation  &  Confidentialité</a>.</p>
+                              
+                                    <div class="clearfix">
+                                      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Normal</button>
+                                      <button type="submit" class="signupbtn">S' inscrire</button>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>-->
 </body>
 </html>

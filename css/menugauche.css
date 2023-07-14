@@ -13,19 +13,18 @@
     float: left;
 }
 
-
 .menu-lid ul li {
     width: 100%;
     line-height: inherit;
-    margin: -11px 0 0 63px;
+    margin: -11px 0 0 3px;
     list-style: none;
     display: flex;
     align-items: center;
 }
-.men  {
+.men {
     display: flex;
     flex-direction: column;
-    margin-left: 73px;
+    margin-left: 161px;
     background: white;
     height: 253px;
 }
@@ -58,8 +57,8 @@
     position: absolute!important;
     width: 79%;
     z-index: 1000;
-    top: 92px;
-    left: 49px;
+    top: 52px;
+    left: 172px;
     height: 139px;
 }
 .menu-lid > ul li:hover .sous{
@@ -72,7 +71,7 @@
 .sous a {
     padding: 10px;
     border-bottom: none;
-    margin-left: -50px;
+    margin-left: -11px;
 }
 .sous a:hover {
     border-bottom: none;
